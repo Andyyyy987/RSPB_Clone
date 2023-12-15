@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    padding: 0px 56px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbarLogo {
+    width: 63.84px;
+}
+
+#navbarlinks a {
+    color: #144650;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#hamburger {
+    display: none;
+}
+
+#hamburger div {
+    height: 1px;
+    width: 25px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+@media (max-width: 992px) {
+
+    #navbarLogo {
+        width: 51px;
+    }
+
+    #navbarlinks {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+    
+}
